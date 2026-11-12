@@ -5,6 +5,6 @@ const { getMessage } = require("../src/index");
 test("SIS should return the correct message", () => {
     assert.strictEqual(
         getMessage(),
-        "Wrong message"
+        "Student Information System is running!"
     );
 });
