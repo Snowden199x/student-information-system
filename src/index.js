@@ -1,7 +1,7 @@
 const http = require("node:http");
 
 function getMessage() {
-    return "Student Profile feature is running!";
+        return "Student Profile feature is running!";
 }
 
 const server = http.createServer((req, res) => {
